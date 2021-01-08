@@ -1,0 +1,42 @@
+<!-- 
+  <div class="container my-5">
+    <form [formGroup] = 'firstReactiveForm' (ngSubmit)="handleReactiveFormSubmit()" >
+        <div class="form-group">
+          <label for="user_name">Address</label>
+          <input formControlName="user_name" 
+           type="text"
+            class="form-control"
+             id="user_name"
+            placeholder="Address"
+            formControlName="user_name"
+            [class.is-invalid]="firstReactiveForm.get('user_name').invalid == true && firstReactiveForm.get('user_name').touched == true" type="text" class="form-control w-75 is-invalid" id="formGroupExampleInput" placeholder="the username at least 3 characters">
+            <span *ngIf="firstReactiveForm.get('user_name').invalid == true && firstReactiveForm.get('user_name').touched == true" class="text-danger">user name not valid</span>
+        </div>
+        <div class="form-group">
+            <label for="email">email</label>
+            <input formControlName="email" 
+             type="text"
+              class="form-control"
+               id="email"
+               pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" 
+              placeholder="email"
+              formControlName="email"
+              [class.is-invalid]="firstReactiveForm.get('email').invalid == true && firstReactiveForm.get('email').touched == true" type="text" class="form-control w-75 is-invalid" required type="email" class="form-control w-75" id="formGroupExampleInput2" placeholder="ex : xxx@xxx.xxx">
+            <span *ngIf="firstReactiveForm.get('email').invalid == true && firstReactiveForm.get('email').touched == true" class="text-danger">user email not valid</span>
+          
+          </div>
+          <div class="form-group">
+            <label for="email">phone</label>
+            <input formControlName="phone" 
+             type="number"
+              class="form-control"
+               id="phone"
+              placeholder="phone"
+              formControlName="phone"
+              [class.is-invalid]="firstReactiveForm.get('email').invalid == true && firstReactiveForm.get('email').touched == true" type="text" class="form-control w-75 is-invalid" required type="email" class="form-control w-75" id="formGroupExampleInput2" placeholder="ex : xxx@xxx.xxx">
+            <span *ngIf="firstReactiveForm.get('email').invalid == true && firstReactiveForm.get('email').touched == true" class="text-danger">user email not valid</span>
+          
+          </div>
+          <button class="btn btn-primary">Submit</button>
+        </form>
+      </div> -->

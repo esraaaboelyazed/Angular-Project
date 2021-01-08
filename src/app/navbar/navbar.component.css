@@ -1,0 +1,43 @@
+/* body{
+    margin: 0px;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+p{
+    margin: 0px;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    display: inline-block;
+}
+.nav{
+    overflow: hidden;
+}
+
+.nav img{
+    height:45px;
+    padding: 5px 0px;
+}
+
+.nav ul{
+    float: right;
+}
+
+.nav ul li{
+    display: inline-block;
+    padding: 21px 10px;
+}
+.nav ul li:hover{
+/* background-color: #8c271e; */
+/* color:white;
+cursor: pointer;
+}  */
+
+
