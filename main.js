@@ -690,7 +690,7 @@ class ProductdetailsComponent {
     }
 }
 ProductdetailsComponent.ɵfac = function ProductdetailsComponent_Factory(t) { return new (t || ProductdetailsComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_1__["ActivatedRoute"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_servies_data_service__WEBPACK_IMPORTED_MODULE_2__["DataService"])); };
-ProductdetailsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: ProductdetailsComponent, selectors: [["app-productdetails"]], decls: 16, vars: 5, consts: [[1, "container", "mt-5"], [1, "row"], [1, "col-md-6"], [1, "w-100", "rounded", 3, "src"], [1, "col-md-6", "py-5"], [1, "text-muted"], [1, "badge", "p-2", "badge-info"], [1, "badge", "category", "text-white", "p-2", "ml-3"], [1, "btn", "btn-primary", "mt-2", "text-center", 3, "click"]], template: function ProductdetailsComponent_Template(rf, ctx) { if (rf & 1) {
+ProductdetailsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: ProductdetailsComponent, selectors: [["app-productdetails"]], decls: 16, vars: 5, consts: [[1, "container", "mt-5"], [1, "row"], [1, "col-md-6"], [1, "w-100", "rounded", 3, "src"], [1, "col-md-6", "py-5"], [1, "text-muted"], [1, "badge", "p-2", "badge-info"], [1, "badge", "category", "text-white", "p-2", "ml-3"], [1, "btn", "btn-primary", "mt-2", "text-center", 2, "background-color", "#FF9800", 3, "click"]], template: function ProductdetailsComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 2);
@@ -988,6 +988,11 @@ function ProductsComponent_div_14_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](21, "div", 23);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](22, "button", 24);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](23, "view details");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -996,7 +1001,7 @@ function ProductsComponent_div_14_Template(rf, ctx) { if (rf & 1) {
     const i_r2 = ctx.index;
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpropertyInterpolate"]("src", product_r1.image, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"]);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("routerLink", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction1"](6, _c0, i_r2));
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("routerLink", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction1"](7, _c0, i_r2));
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](4);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](product_r1.id);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
@@ -1005,6 +1010,8 @@ function ProductsComponent_div_14_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](product_r1.description);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](4);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"]("", product_r1.price, " L.E");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](5);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("routerLink", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction1"](9, _c0, i_r2));
 } }
 class ProductsComponent {
     constructor(dataService) {
@@ -1037,7 +1044,7 @@ class ProductsComponent {
     }
 }
 ProductsComponent.ɵfac = function ProductsComponent_Factory(t) { return new (t || ProductsComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_servies_data_service__WEBPACK_IMPORTED_MODULE_1__["DataService"])); };
-ProductsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: ProductsComponent, selectors: [["app-products"]], decls: 16, vars: 5, consts: [[1, "container"], [1, "row>"], [1, "col-4", "active-pink-3", "active-pink-4", "mb-4"], ["type", "search", "placeholder", "Search", "aria-label", "Search", 1, "form-control", 3, "ngModel", "ngModelChange"], [1, "container", "text-center"], [1, "wsk-btn"], [1, "shell"], [1, "row"], ["class", "col-md-3", 4, "ngFor", "ngForOf"], [1, "col-md-3"], [1, "wsk-cp-product"], [1, "wsk-cp-img"], ["alt", "Product", 1, "img-responsive", 3, "routerLink", "src"], [1, "wsk-cp-text"], [1, "category"], [1, "title-product"], [1, "description-prod"], [1, "card-footer"], [1, "wcf-left"], [1, "price"], [1, "wcf-right"], [1, "buy-btn"], [1, "fas", "fa-cart-plus", 3, "click"]], template: function ProductsComponent_Template(rf, ctx) { if (rf & 1) {
+ProductsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: ProductsComponent, selectors: [["app-products"]], decls: 16, vars: 5, consts: [[1, "container"], [1, "row>"], [1, "col-4", "active-pink-3", "active-pink-4", "mb-4"], ["type", "search", "placeholder", "Search", "aria-label", "Search", 1, "form-control", 3, "ngModel", "ngModelChange"], [1, "container", "text-center"], [1, "wsk-btn"], [1, "shell"], [1, "row"], ["class", "col-md-3", 4, "ngFor", "ngForOf"], [1, "col-md-3"], [1, "wsk-cp-product"], [1, "wsk-cp-img"], ["alt", "Product", 1, "img-responsive", 3, "routerLink", "src"], [1, "wsk-cp-text"], [1, "category"], [1, "title-product"], [1, "description-prod"], [1, "card-footer"], [1, "wcf-left"], [1, "price"], [1, "wcf-right"], [1, "buy-btn"], [1, "fas", "fa-cart-plus", 3, "click"], [1, "wsk-cp-footer"], [1, "btn", "btn-primary", "mt-2", "ml-5", "text-center", 2, "background-color", "#FF9800", 3, "routerLink"]], template: function ProductsComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 2);
@@ -1062,7 +1069,7 @@ ProductsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefine
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](11, "div", 6);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](13, "div", 7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](14, ProductsComponent_div_14_Template, 21, 8, "div", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](14, ProductsComponent_div_14_Template, 24, 11, "div", 8);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipe"](15, "productdfilter");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
