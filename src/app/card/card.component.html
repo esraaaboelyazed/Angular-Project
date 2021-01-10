@@ -1,13 +1,13 @@
 
 <div class="container text-center">
     <h1>Product card</h1>
-      <span><i><a href="http://blog.wingerdstok.com" class="wsk-btn">shopping</a></i></span>
+      <!-- <span><i><a href="http://blog.wingerdstok.com" class="wsk-btn">shopping</a></i></span> -->
     </div>
     <div class="shell">
       <div class="container">
         <div class="row">
-          <div class="col-md-3" *ngFor="let product of proarr">
-            <div class="wsk-cp-product">
+          <div class="col-md-3" *ngFor="let product of proarr; let i=index">
+            <div class="wsk-cp-product">{{i+1}}
               <div class="wsk-cp-img">
                 <img src="{{product.image}}" alt="Product" class="img-responsive" />
               </div>
@@ -23,11 +23,17 @@
                 </div>
                 <div class="card-footer">
                   <div class="wcf-left"><span class="price">{{product.price}} L.E</span></div>
-                  <div class="wcf-right"><a  class="buy-btn"><i class="fas fa-cart-plus"></i></a></div>
+                
+                  <input style="margin-left:100px !important ;" type="number" max="15" min="1" class="w-25 form-control" placeholder="1">
+                  
+                  <a style="background-color: #FF9800" class="btn btn-primary mt-3 ml-4" (click)="remove(i)" >remove from card</a>
                 </div>
               </div>
             </div>
           </div>
           </div>
           </div>
-       
+  
+          <div class="col-md-3" style="width: 60%; margin: auto;" >
+            <a style="background-color: #FF9800;" class="btn btn-primary mt-2 " routerLink="/form">Sumbit Order</a>
+          </div>

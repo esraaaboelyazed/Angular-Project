@@ -9,6 +9,7 @@ import {DataService} from '../servies/data.service';
 export class ProductsComponent implements OnInit {
 data: any;
 proarr:any;
+term:string;
   constructor( private dataService : DataService) { }
 
   ngOnInit(): void {

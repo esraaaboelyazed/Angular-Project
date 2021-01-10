@@ -57,29 +57,24 @@
 
     <!-- Right -->
     <ul class="navbar-nav ml-auto mr-5" style="margin-right: 150px !important;">
-      <li class="nav-item " >
-        <a  class="nav-link" data-toggle="collapse" data-target=".navbar-collapse.show">
-            <div class="d-inline-block" ngbDropdown #myDrop="ngbDropdown">
-                <button class="btn mr-2" id="dropdownManual" ngbDropdownAnchor (focus)="myDrop.open()"><i style="font-size: 20px;" class="fa fa-user fa-2x " aria-hidden="true"></i></button>
-                <div ngbDropdownMenu aria-labelledby="dropdownManual">
-                  <button ngbDropdownItem>View/Edit Profile</button>
-                  <button ngbDropdownItem>Log Out</button>
-                </div>
-              </div>
-        </a>
+  
+      <li class="nav-item active">
+        <a style="font-size: 20px;" class="nav-link" routerLink="card">card <span class="sr-only">(current)</span></a>
       </li>
-      <li class="nav-item " >
-        <a routerLink="card">card </a>
-        <a routerLink="products">products </a>
-        <!-- <a  class="nav-link" data-toggle="collapse" data-target=".navbar-collapse.show">
-            <div class="d-inline-block" ngbDropdown #myDrop="ngbDropdown">
-                <button class="btn " id="dropdownManual" ngbDropdownAnchor (focus)="myDrop.open()">card</button>
-                <div ngbDropdownMenu aria-labelledby="dropdownManual">
-                  <button ngbDropdownItem>CheckOut</button>
+      <!-- <li class="nav-item active">
+        <a style="font-size: 20px;" class="nav-link" routerLink="products">Products <span class="sr-only">(current)</span></a>
+      </li> -->
+        <li class="nav-item " >
+          <a  class="nav-link" data-toggle="collapse" data-target=".navbar-collapse.show">
+              <div class="d-inline-block" ngbDropdown #myDrop="ngbDropdown">
+                  <button class="btn mr-2" id="dropdownManual" ngbDropdownAnchor (focus)="myDrop.open()"><i style="font-size: 20px;" class="fa fa-user fa-2x " aria-hidden="true"></i></button>
+                  <div ngbDropdownMenu aria-labelledby="dropdownManual">
+                    <button ngbDropdownItem>View/Edit Profile</button>
+                    <button ngbDropdownItem>Log Out</button>
+                  </div>
                 </div>
-              </div>
-        </a> -->
-      </li>
+          </a>
+        </li>
     </ul>
 
   </div>
@@ -87,3 +82,6 @@
 
 </nav>
 <!-- Navbar -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js">
+</script>
